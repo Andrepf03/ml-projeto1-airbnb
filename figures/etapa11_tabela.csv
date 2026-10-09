@@ -1,0 +1,9 @@
+modelo,AUC val,logloss val,acc val,épocas,convergiu,divergiu
+1 base (λ=0),0.8686,0.3317,0.8639,10715,True,False
+2 L2 λ=1,0.8686,0.3318,0.8648,8007,True,False
+3 L2 λ=10,0.8668,0.3352,0.8613,3053,True,False
+4 L2 λ=100,0.8514,0.3554,0.8491,677,True,False
+5 grupos + λ=10,0.8665,0.3357,0.8613,3041,True,False
+6 dist_x_lisboa + λ=10,0.8687,0.3329,0.8639,2786,True,False
+7 poly2 + λ=10,0.8696,0.3314,0.863,2942,True,False
+8 dist_x_lisboa+poly2 + λ=10,0.8706,0.33,0.8644,2855,True,False

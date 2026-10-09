@@ -1,0 +1,12 @@
+modelo,colunas,MAE,RMSE,R2_preco,R2_log_treino,R2_log_val,preços<0,taxa,convergiu,divergiu
+1. Preço bruto,71,92.81,344.6,0.167,,,228,0.5,True,False
+2. Log-preço (base),71,66.05,351.19,0.135,0.652,0.643,0,0.5,True,False
+3. + dist x Lisboa,73,65.84,351.55,0.133,0.653,0.645,0,0.5,True,False
+4. + capacidade x quarto privado,72,66.91,365.31,0.064,0.652,0.643,0,0.5,True,False
+5. + as duas interações,74,66.72,366.24,0.059,0.654,0.645,0,0.5,True,False
+6. + polinómios grau 2,75,65.12,348.51,0.148,0.66,0.648,0,0.1667,True,False
+7. + polinómios grau 3,79,64.61,348.31,0.149,0.664,0.652,0,0.1667,True,False
+"8. + grau 3, com L2 (lambda=100)",79,65.08,348.84,0.147,0.656,0.644,0,0.1667,True,False
+9. + interações e grau 2,78,65.16,350.63,0.138,0.663,0.651,0,0.1667,True,False
+10. dist x Lisboa + grau 2,77,64.8,348.41,0.149,0.662,0.651,0,0.1667,True,False
+11. dist x Lisboa + grau 3,81,64.59,348.36,0.149,0.664,0.652,0,0.1667,True,False

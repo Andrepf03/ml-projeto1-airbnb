@@ -1,0 +1,3 @@
+conjunto,limiar,accuracy,baseline,precision,recall,F1,AUC,PR-AUC,log_loss,VN,FP,FN,VP
+validação,0.5,0.863,0.803,0.728,0.483,0.581,0.873,0.689,0.328,3474,161,461,431
+validação,0.25,0.828,0.803,0.547,0.743,0.631,0.873,0.689,0.328,3087,548,229,663
